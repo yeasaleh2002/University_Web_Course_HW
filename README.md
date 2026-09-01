@@ -2,9 +2,7 @@
 
 ## 🌐 Live Preview
 
-**Live Deployed Website:** [https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/](https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/)
-
-*(Replace `YOUR-GITHUB-USERNAME` and `YOUR-REPOSITORY-NAME` with your actual GitHub username and repository name after pushing.)*
+**Live Deployed Website:** [https://yeasaleh2002.github.io/University_Web_Course_HW/](https://yeasaleh2002.github.io/University_Web_Course_HW/)
 
 ---
 
