@@ -26,19 +26,4 @@
 
 ---
 
-## 🚀 Automatic GitHub Deployment Instructions
 
-1. Create a new repository on GitHub.
-2. Initialize and push your project:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit for University Web Course HW"
-   git branch -M main
-   git remote add origin https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-NAME.git
-   git push -u origin main
-   ```
-3. In your GitHub repository:
-   - Go to **Settings** > **Pages**.
-   - Under **Build and deployment** > **Source**, select **GitHub Actions**.
-4. The workflow in `.github/workflows/deploy.yml` will automatically build and deploy your site on every push.
