@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City University - Student Registration | Batch 62</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <span>📝 Student Portal Registration &bull; Spring 2026</span>
+        <span class="info-tag">Form contains 12+ HTML5 Input Types</span>
+    </div>
+
+    <header class="site-header">
+        <div class="header-main">
+            <a href="index.html" class="logo-container">
+                <div class="logo-badge">CU</div>
+                <div class="brand-text">
+                    <h1>CITY UNIVERSITY</h1>
+                    <p>Center for Academic Excellence &amp; Technology</p>
+                </div>
+            </a>
+
+            <nav class="main-nav">
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signup.html" class="active">Signup</a></li>
+                    <li><a href="login.html" class="btn-nav-highlight">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <span class="badge">Student Admission &amp; Portal Sign Up</span>
+        <h2>Create Student Account</h2>
+        <p>Join City University and Batch 62. Complete your registration below with your academic details.</p>
+    </section>
+
+    <main class="container">
+        
+        <div class="form-wrapper">
+            
+            <div class="form-header">
+                <h3>New Student Registration Form</h3>
+                <p>Please fill out all mandatory fields below accurately.</p>
+            </div>
+
+            <form action="#" method="POST" enctype="multipart/form-data">
+                
+                <div class="form-grid">
+                    
+                    <div class="form-group">
+                        <label for="fullname">
+                            Full Name * <span class="input-type-badge">type="text"</span>
+                        </label>
+                        <input type="text" id="fullname" name="fullname" class="form-control" placeholder="e.g. Yeasir Arafat" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="username">
+                            Student Username * <span class="input-type-badge">type="text"</span>
+                        </label>
+                        <input type="text" id="username" name="username" class="form-control" placeholder="e.g. batch62_yeasir" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">
+                            Institutional / Personal Email * <span class="input-type-badge">type="email"</span>
+                        </label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="student@cityuniversity.edu" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">
+                            Password * <span class="input-type-badge">type="password"</span>
+                        </label>
+                        <input type="password" id="password" name="password" class="form-control" placeholder="Min. 8 characters" minlength="8" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="student_id">
+                            Student Roll / ID Number * <span class="input-type-badge">type="number"</span>
+                        </label>
+                        <input type="number" id="student_id" name="student_id" class="form-control" placeholder="e.g. 6201045" min="10000" max="9999999" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">
+                            Phone / Mobile Number * <span class="input-type-badge">type="tel"</span>
+                        </label>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="+880 1712-345678" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dob">
+                            Date of Birth * <span class="input-type-badge">type="date"</span>
+                        </label>
+                        <input type="date" id="dob" name="dob" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lab_time">
+                            Preferred Lab Time <span class="input-type-badge">type="time"</span>
+                        </label>
+                        <input type="time" id="lab_time" name="lab_time" class="form-control" value="09:00">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="portfolio">
+                            GitHub / Portfolio Profile <span class="input-type-badge">type="url"</span>
+                        </label>
+                        <input type="url" id="portfolio" name="portfolio" class="form-control" placeholder="https://github.com/yourprofile">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dept">
+                            Department / Major * <span class="input-type-badge">&lt;select&gt;</span>
+                        </label>
+                        <select id="dept" name="department" class="form-control" required>
+                            <option value="">-- Choose Academic Program --</option>
+                            <option value="cse" selected>CSE - Computer Science &amp; Engineering</option>
+                            <option value="eee">EEE - Electrical &amp; Electronic Engineering</option>
+                            <option value="civil">Civil Engineering</option>
+                            <option value="bba">Bachelor of Business Administration</option>
+                            <option value="pharmacy">Department of Pharmacy</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="profile_pic">
+                            Upload Student Photo / ID Document <span class="input-type-badge">type="file"</span>
+                        </label>
+                        <input type="file" id="profile_pic" name="profile_pic" class="form-control" accept="image/*,.pdf">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>
+                            Gender * <span class="input-type-badge">type="radio"</span>
+                        </label>
+                        <div class="options-group">
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="male" required checked> Male
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="female" required> Female
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="other" required> Other
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>
+                            Extracurricular Clubs &amp; Activities <span class="input-type-badge">type="checkbox"</span>
+                        </label>
+                        <div class="options-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="clubs[]" value="programming" checked> Competitive Programming Club
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="clubs[]" value="robotics"> Robotics &amp; IoT Society
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="clubs[]" value="cultural"> Cultural &amp; Debating Club
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="clubs[]" value="sports"> Sports Association
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="badge_color">
+                            Badge Theme Color Accent <span class="input-type-badge">type="color"</span>
+                        </label>
+                        <div class="color-picker-wrapper">
+                            <input type="color" id="badge_color" name="badge_color" value="#00b493">
+                            <span style="font-size: 0.85rem; color: var(--text-muted);">Pick your student ID card ribbon color</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="skill_level">
+                            Coding Experience Level (1-10) <span class="input-type-badge">type="range"</span>
+                        </label>
+                        <div class="range-wrapper">
+                            <input type="range" id="skill_level" name="skill_level" min="1" max="10" value="7" oninput="document.getElementById('rangeVal').innerText = this.value">
+                            <span id="rangeVal" class="range-value">7</span> / 10
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="address">
+                            Permanent / Present Address <span class="input-type-badge">&lt;textarea&gt;</span>
+                        </label>
+                        <textarea id="address" name="address" rows="3" class="form-control" placeholder="House / Street / City / Postal Code"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label class="checkbox-label" style="background: transparent; border: none; padding: 0;">
+                            <input type="checkbox" name="terms" required>
+                            <span>I declare that all information provided is true and I agree to the <a href="#" style="color: var(--accent-color);">University Code of Conduct</a>.</span>
+                        </label>
+                    </div>
+
+                </div>
+
+                <div style="display: flex; gap: 15px; margin-top: 25px; flex-wrap: wrap;">
+                    <button type="submit" class="btn btn-primary" style="flex: 2; min-width: 200px;">
+                        <span>🚀</span> Complete Registration
+                    </button>
+                    <button type="reset" class="btn btn-outline" style="flex: 1; min-width: 120px;">
+                        <span>🔄</span> Reset Form
+                    </button>
+                </div>
+
+                <div class="form-footer-links">
+                    Already registered in Batch 62? <a href="login.html">Sign in to Student Portal</a>
+                </div>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-column">
+                <h4>City University</h4>
+                <p>Fostering academic excellence, innovative technological research, and ethical leadership.</p>
+                <p><strong>Course:</strong> Web Engineering Lab HW</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="signup.html">Student Registration</a></li>
+                    <li><a href="login.html">Portal Login</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Academic Info</h4>
+                <p>📍 Main Campus, Knowledge Park</p>
+                <p>📞 +880 1234-567890</p>
+                <p>✉️ info@cityuniversity.edu</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copy right @<strong>batch 62</strong> | City University. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

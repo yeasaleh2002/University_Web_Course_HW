@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City University - Contact Us | Batch 62</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <span>📞 University Helpdesk &amp; Support</span>
+        <span class="info-tag">Campus Hours: Sun - Thu (8:00 AM - 5:00 PM)</span>
+    </div>
+
+    <header class="site-header">
+        <div class="header-main">
+            <a href="index.html" class="logo-container">
+                <div class="logo-badge">CU</div>
+                <div class="brand-text">
+                    <h1>CITY UNIVERSITY</h1>
+                    <p>Center for Academic Excellence &amp; Technology</p>
+                </div>
+            </a>
+
+            <nav class="main-nav">
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="signup.html">Signup</a></li>
+                    <li><a href="login.html" class="btn-nav-highlight">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <span class="badge">Get in Touch</span>
+        <h2>Contact Us</h2>
+        <p>Have questions regarding admissions, curriculum, or campus visits? Reach out to our academic advisors and administration.</p>
+    </section>
+
+    <main class="container">
+        
+        <div class="contact-container">
+            
+            <div class="contact-info-card">
+                <div>
+                    <h3>Campus Headquarters</h3>
+                    <p style="opacity: 0.85; font-size: 0.95rem;">We are here to assist prospective students, current scholars of Batch 62, and guardians.</p>
+
+                    <ul class="contact-info-list">
+                        <li>
+                            <div class="icon">📍</div>
+                            <div>
+                                <strong>Campus Address</strong>
+                                <p style="opacity: 0.85; margin: 0;">City University Main Campus, Knowledge Park, Birulia, Savar, Dhaka.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">📞</div>
+                            <div>
+                                <strong>Admissions Hotline</strong>
+                                <p style="opacity: 0.85; margin: 0;">+880 1234-567890 / +880 1987-654321</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">✉️</div>
+                            <div>
+                                <strong>Official Email</strong>
+                                <p style="opacity: 0.85; margin: 0;">admission@cityuniversity.edu<br>cse.batch62@cityuniversity.edu</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">⏰</div>
+                            <div>
+                                <strong>Office Hours</strong>
+                                <p style="opacity: 0.85; margin: 0;">Sunday to Thursday: 08:30 AM - 05:00 PM</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.08); padding: 15px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.15);">
+                    <strong style="color: var(--accent-light);">Emergency Student Support:</strong>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 5px 0 0;">For urgent semester registration issues, contact the Batch 62 CSE departmental desk directly.</p>
+                </div>
+            </div>
+
+            <div class="card" style="padding: 35px;">
+                <h3 style="font-size: 1.5rem; color: var(--primary-color); margin-bottom: 8px;">Send an Inquiry</h3>
+                <p style="color: var(--text-muted); margin-bottom: 25px; font-size: 0.95rem;">Fill out the form below and an academic counselor will respond within 24 hours.</p>
+
+                <form action="#" method="POST">
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="contact-name">Your Full Name *</label>
+                            <input type="text" id="contact-name" name="name" class="form-control" placeholder="e.g. John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Email Address *</label>
+                            <input type="email" id="contact-email" name="email" class="form-control" placeholder="name@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="contact-phone">Phone Number</label>
+                            <input type="tel" id="contact-phone" name="phone" class="form-control" placeholder="+880 1700-000000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-dept">Department of Interest</label>
+                            <select id="contact-dept" name="department" class="form-control">
+                                <option value="">-- Select Department --</option>
+                                <option value="cse">Computer Science &amp; Engineering (CSE)</option>
+                                <option value="eee">Electrical &amp; Electronic Engineering (EEE)</option>
+                                <option value="civil">Civil Engineering</option>
+                                <option value="bba">Business Administration</option>
+                                <option value="pharmacy">Pharmacy</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-subject">Subject *</label>
+                        <input type="text" id="contact-subject" name="subject" class="form-control" placeholder="e.g. Admission Requirement for Spring 2026" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-message">Your Message *</label>
+                        <textarea id="contact-message" name="message" rows="5" class="form-control" placeholder="Write your detailed inquiry here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="padding: 14px 28px;">
+                        <span>✉️</span> Submit Inquiry
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-column">
+                <h4>City University</h4>
+                <p>Fostering academic excellence, innovative technological research, and ethical leadership.</p>
+                <p><strong>Course:</strong> Web Engineering Lab HW</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="signup.html">Student Registration</a></li>
+                    <li><a href="login.html">Portal Login</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Academic Info</h4>
+                <p>📍 Main Campus, Knowledge Park</p>
+                <p>📞 +880 1234-567890</p>
+                <p>✉️ info@cityuniversity.edu</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copy right @<strong>batch 62</strong> | City University. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

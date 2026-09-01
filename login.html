@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City University - Student &amp; Faculty Login | Batch 62</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <span>🔒 Secure Academic Portal &bull; City University</span>
+        <span class="info-tag">Spring 2026 Academic Session</span>
+    </div>
+
+    <header class="site-header">
+        <div class="header-main">
+            <a href="index.html" class="logo-container">
+                <div class="logo-badge">CU</div>
+                <div class="brand-text">
+                    <h1>CITY UNIVERSITY</h1>
+                    <p>Center for Academic Excellence &amp; Technology</p>
+                </div>
+            </a>
+
+            <nav class="main-nav">
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signup.html">Signup</a></li>
+                    <li><a href="login.html" class="active">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <span class="badge">Portal Authentication</span>
+        <h2>Student &amp; Faculty Login</h2>
+        <p>Access your enrolled courses, grade sheets, attendance reports, and lab materials.</p>
+    </section>
+
+    <main class="container" style="display: flex; justify-content: center; align-items: center;">
+        
+        <div class="form-wrapper" style="max-width: 480px; width: 100%;">
+            
+            <div class="form-header">
+                <div style="font-size: 3rem; margin-bottom: 10px;">🔐</div>
+                <h3>Sign In to Portal</h3>
+                <p>Enter your institutional credentials below</p>
+            </div>
+
+            <form action="#" method="POST">
+                
+                <div class="form-group">
+                    <label for="login-id">Student ID or Email Address</label>
+                    <input 
+                        type="text" 
+                        id="login-id" 
+                        name="login_id" 
+                        class="form-control" 
+                        placeholder="e.g. 6201045 or student@cityuniversity.edu" 
+                        required 
+                        autofocus
+                    >
+                </div>
+
+                <div class="form-group">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <label for="login-password">Password</label>
+                        <a href="#" style="font-size: 0.8rem; color: var(--accent-color); text-decoration: none;">Forgot Password?</a>
+                    </div>
+                    <input 
+                        type="password" 
+                        id="login-password" 
+                        name="password" 
+                        class="form-control" 
+                        placeholder="Enter your secret password" 
+                        required
+                    >
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin: 15px 0 25px;">
+                    <label class="checkbox-label" style="background: transparent; border: none; padding: 0;">
+                        <input type="checkbox" name="remember_me" checked>
+                        <span style="font-size: 0.9rem;">Remember me</span>
+                    </label>
+                    <span style="font-size: 0.85rem; color: var(--text-muted);">Batch 62 Portal</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                    <span>🔓</span> Sign In
+                </button>
+
+                <div style="margin-top: 25px; padding: 12px; background: var(--aquamarine-soft); border-radius: var(--radius-sm); border: 1px dashed var(--accent-color); text-align: center;">
+                    <small style="color: var(--primary-dark);">
+                        <strong>💡 Demo Student Access:</strong><br>
+                        ID: <code>batch62_demo</code> | Password: <code>student123</code>
+                    </small>
+                </div>
+
+                <div class="form-footer-links">
+                    Don't have a student account yet? <a href="signup.html">Create an Account</a>
+                </div>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-column">
+                <h4>City University</h4>
+                <p>Fostering academic excellence, innovative technological research, and ethical leadership.</p>
+                <p><strong>Course:</strong> Web Engineering Lab HW</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="signup.html">Student Registration</a></li>
+                    <li><a href="login.html">Portal Login</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Academic Info</h4>
+                <p>📍 Main Campus, Knowledge Park</p>
+                <p>📞 +880 1234-567890</p>
+                <p>✉️ info@cityuniversity.edu</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copy right @<strong>batch 62</strong> | City University. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
